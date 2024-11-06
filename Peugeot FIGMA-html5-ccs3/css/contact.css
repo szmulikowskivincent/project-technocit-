@@ -1,0 +1,143 @@
+.présentation {
+    margin-inline-start: 250px;
+}
+
+.checkbox-group {
+    display: flex;
+    margin-inline-start: 250px;
+    gap: 50px;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-inline-end: 8px;
+    inline-size: 10px;
+    block-size: 10px;
+    appearance: none;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    position: relative;
+    accent-color: #000000;
+}
+
+.checkbox-group input[type="checkbox"]:checked::before {
+    content: "";
+    position: absolute;
+    inset-block-start: 2px;
+    inset-inline-start: 2px;
+    inline-size: 6px;
+    block-size: 12px;
+    border: solid #007bff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.form-row label {
+    flex: 1;
+    font-size: 15px;
+    margin-block-end: 15px;
+}
+
+.formulaire-peugeot {
+    margin-inline-start: 250px;
+}
+
+input {
+    inline-size: 450px;
+    block-size: 45px;
+    font-size: 16px;
+    padding: 15px;
+    border: 2px solid black;
+    margin-block-end: 10px;
+}
+
+select {
+    inline-size: 450px;
+    block-size: 45px;
+    font-size: 14px;
+    padding: 15px;
+    border: 2px solid black;
+    margin-block-end: 10px;
+}
+
+button {
+    inline-size: 450px;
+    block-size: 45px;
+    font-size: 16px;
+    background-color: #001f3f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0074D9;
+}
+
+.privacy-policy {
+    max-inline-size: 800px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.privacy-policy a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.privacy-policy a:hover {
+    text-decoration: underline;
+}
+
+.privacy-policy p {
+    margin: 10px 0;
+}
+
+.privacy-policy input[type="checkbox"] {
+    margin-inline-end: 5px;
+}
+
+.required-field {
+    color: red;
+}
+
+@media (max-width: 768px) {
+
+    .présentation,
+    .checkbox-group,
+    .formulaire-peugeot {
+        margin-inline-start: 0;
+    }
+
+    .checkbox-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .form-row label {
+        font-size: 14px;
+        margin-block-end: 10px;
+    }
+
+    input,
+    button {
+        inline-size: 100%;
+        block-size: 40px;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        inline-size: 100%;
+    }
+}

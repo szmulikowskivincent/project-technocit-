@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <title>Contact</title>
+</head>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/logos/logo.png" class="logo" />
+        </div>
+        <div class="hamburger">&#9776;</div>
+        <ul class="nav-links">
+            <li><a href="#gamme">GAMME</a></li>
+            <li><a href="#professional">PROFESSIONAL</a></li>
+            <li><a href="#occasion">OCCASION</a></li>
+            <li><a
+                    href="file:///C:/Users/szmul/Desktop/exo_FIGMA-peugeot/Peugeot%20FIGMA-html5-ccs3/index.html">ACTUALITE</a>
+            </li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#garantie">GARANTIE</a></li>
+            <li><a href="#innovation">INNOVATION</a></li>
+            <li><a href="#offres">OFFRES</a></li>
+            <li>
+                &nbsp;&nbsp;
+                <a href="file:///C:/Users/szmul/Desktop/exo_FIGMA-peugeot/Peugeot%20FIGMA-html5-ccs3/contact.html">
+                    <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="Logo Bootstrap"
+                        style="inline-size: 20px; block-size: 20px; vertical-align: middle;">
+                    CONTACT
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="assets\imgs\462546761_1117356503366740_8291489874441776182_n.png" class="img" />
+    </div>
+
+    <br /><br />
+
+    <div class="présentation contact">
+        <h2>INSCRIVEZ VOUS</h2>
+        <p>Au travers de cette éxpèririence, vous en retirerez des bienfaits exeptionnels et votre désir de rouler en
+            peugeot ne serra que accru! </p>
+    </div>
+
+    <br /><br />
+
+    <div style="margin-inline-start: 250px;">
+        <label>
+            <input style="inline-size: 20px; block-size: 20px;" type="checkbox" name="role" value="invite" required>
+            Invité
+        </label>
+        &nbsp;&nbsp;
+        <label>
+            <input style="inline-size: 20px; block-size: 20px;" type="checkbox" name="role" value="societe" required>
+            Société
+        </label>
+        &nbsp;&nbsp;
+        <label>
+            <input style="inline-size: 20px; block-size: 20px;" type="checkbox" name="role" value="particulier"
+                required>
+            Particulier
+        </label>
+    </div>
+
+    <br /><br />
+
+    <form class="formulaire-peugeot" method="get">
+        <div class="form-row">
+            <label for="nom"></label>
+            <input type="text" id="nom" name="nom" placeholder="Nom:" required>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="prenom"></label>
+            <input type="text" id="prenom" name="prenom" placeholder="Prénom" required>
+        </div>
+
+        <div class="form-row">
+            <label for="telephone"></label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Télèphone:" required>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="modele"></label>
+            <label for="modele"></label>
+            <select id="modele" name="modele" required>
+              <option value="" disabled selected>Sélectionnez un modèle</option>
+              <option value="208">Peugeot 208</option>
+              <option value="308">Peugeot 308</option>
+              <option value="2008">Peugeot 2008</option>
+              <option value="3008">Peugeot 3008</option>
+              <option value="5008">Peugeot 5008</option>
+            </select>
+            
+        </div>
+
+        <div class="form-row">
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Email:">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="pays"></label>
+            <input type="text" id="pays" name="pays" placeholder="Pays" required>
+        </div>
+
+        <br />
+
+        <div>
+            <p>Vos données personnelles seront traitées par Peugeot Belgique Luxembourg, Avenue Peugeot 20 Boîte 2, 1120
+                Bruxelles, Belgique, en tant que responsable de traitement, tel que décrit dans notre <a href="#">Charte
+                    de confidentialité</a>, où vous trouverez plus d'informations sur vos droits liés à la
+                confidentialité et les moyens de nous contacter.</p>
+            <p>J'aimerais recevoir des informations concernant vos produits et services via e-mail et j'accepte que
+                Peugeot Belgique Luxembourg traite mes données personnelles à des fins d'activités marketing,
+                d'identification et de reconnaissance, tel que décrit dans la <a href="#">Politique de
+                    confidentialité</a>.</p>
+            <p>J’ai le droit de retirer mon consentement à tout moment (pour plus d'informations, veuillez <a
+                    href="#">cliquer ici</a>). Le retrait du consentement n'affecte pas la légalité du traitement fondé
+                sur le consentement avant son retrait.</p>
+            <label>J'accepte les conditions ci-dessus *</label></p>
+            <br />
+            <div style="display: inline-flex; align-items: center;">
+                <input style="inline-size: 20px; block-size: 20px; margin-inline-end: 8px;" type="checkbox" required>
+                <p class="required-field" style="margin: 0;">* Champs obligatoires</p>
+            </div>
+
+        </div>
+
+        <br />
+
+        <button type="submit">VEUILLEZ TERMINER VOTRE INSCRIPTION</button>
+    </form>
+
+    <br /><br />
+
+    <div class="présentation contact">
+        <h2>ACCEDER A VOS DONNEES</h2>
+    </div>
+
+    <br />
+
+    <form class="formulaire-peugeot" method="get">
+        <div class="form-row">
+            <label for="nom"></label>
+            <input type="text" id="nom" name="nom" placeholder="Nom:" required>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Adresse email:" required>
+        </div>
+
+        <br />
+
+        <button type="submit">ENVOYER UN EMAIL POUR CONFIRMATION DE PROFIL</button>
+    </form>
+
+    <br /><br />
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>BESOIN D'AIDE</h3>
+                <hr />
+                <ul>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">ASSISTANCE</a></li>
+                    <li><a href="#">POINT DE VENTE</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>GAMME PEUGEOT</h3>
+                <hr />
+                <ul>
+                    <li><a href="#">CITADINES</a></li>
+                    <li><a href="#">BERLINES</a></li>
+                    <li><a href="#">SUV</a></li>
+                    <li><a href="#">BREAKS</a></li>
+                    <li><a href="#">FAMILIALES</a></li>
+                    <li><a href="#">GAMME SPORTIVES PEUGEOT</a></li>
+                    <li><a href="#">ELECTRIQUES</a></li>
+                    <li><a href="#">UTILITAIRES</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>CONTACTER NOTRE SERVICE CLIENT</h3>
+                <hr />
+                <p class="phone-number">078 15 16 15</p>
+                <div class="social-icons">
+                    <a href="#"><img src="assets/logos/facebook.svg" alt="Facebook" /></a>
+                    <a href="#"><img src="assets/logos/youtube.svg" alt="YouTube" /></a>
+                    <a href="#"><img src="assets/logos/instagram.svg" alt="Instagram" /></a>
+                    <a href="#"><img src="assets/logos/linkedin.svg" alt="LinkedIn" /></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-banner">
+            <div class="banner-item black-background">
+                <p style="color: white">MARQUE ET TECHNOLOGIE</p>
+            </div>
+            <div class="banner-item light-background">
+                <p style="color: black">RECEVEZ UNE ESTIMATION DE REPRISE</p>
+            </div>
+        </div>
+        <br />
+        <div class="footer-bottom">
+            <p>
+                INFORMATIONS LEGALES &nbsp; | &nbsp; POLITIQUE DE CONFIDENTIALITE
+                &nbsp; | &nbsp; COOKIES &nbsp;| &nbsp; MENTIONS LEGALES ET DONNEES
+                PERSONNELLES &nbsp;| &nbsp; SPONSORING
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

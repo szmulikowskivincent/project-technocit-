@@ -1,0 +1,47 @@
+.bande {
+    display: flex;
+    justify-content: center;
+    background-color: #001f3f;
+    padding: 80px 20px;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.section {
+    background-color: #0d6ee4;
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+    flex: 1 1 auto;
+    max-inline-size: 220px;
+    block-size: 185px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icone {
+    inline-size: 85px;
+    block-size: 85px;
+}
+
+h3 {
+    margin: 10px 0 0;
+    align-items: center;
+    color: #ffffff;
+}
+
+h5 {
+    margin: 10px 0 0;
+    align-items: center;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .bande {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section {
+        inline-size: 90%;
+    }
+}

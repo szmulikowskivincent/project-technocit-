@@ -1,0 +1,50 @@
+.car1 {
+    text-align: start;
+    padding: 15px;
+}
+
+.car-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.01cm;
+    inline-size: 100%;
+    block-size: auto;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+.image-voiture1 {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+.h3-voiture1 {
+    color: black;
+}
+
+.button-voiture1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #064b96;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button-voiture:hover1 {
+    background-color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .car-container1 {
+        justify-content: flex-start;
+    }
+
+    .button-voiture1 {
+        display: block;
+        inline-size: auto;
+        padding-inline-start: 50px;
+    }
+}

@@ -1,0 +1,37 @@
+.car {
+    text-align: start;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+.car-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+}
+
+
+.image-voiture {
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+
+.h3-voiture {
+    color: black;
+}
+
+.button-voiture {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d6ee4;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button-voiture:hover {
+    background-color: #0056b3;
+}

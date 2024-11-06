@@ -1,0 +1,86 @@
+.car-table {
+    border: 2px solid #d3d3d3;
+    padding: 20px;
+    max-inline-size: 1740px;
+    margin: 0 auto;
+}
+
+.car-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2cm;
+    position: relative;
+}
+
+.car2 {
+    background-color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.car2:not(:last-child) {
+    border-inline-end: 2px solid #d3d3d3;
+}
+
+.image-voiture2 {
+    max-inline-size: 100%;
+    block-size: 200px;
+    object-fit: cover;
+    margin-block-end: 5px;
+}
+
+.h3-voiture2 {
+    color: black;
+    margin-block-end: 10px;
+}
+
+.p-voiture2 {
+    margin-block-end: 20px;
+}
+
+.button-voiture2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-block-start: 10px;
+}
+
+.button-voiture2:hover {
+    background-color: #064b96;
+}
+
+@media (max-width: 768px) {
+    .car-container2 {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .car2 {
+        margin-inline: auto;
+    }
+
+    .button-voiture2 {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-voiture2 {
+        max-inline-size: 100px;
+    }
+}

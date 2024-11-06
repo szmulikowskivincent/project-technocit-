@@ -1,0 +1,81 @@
+.car3 {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: start;
+    inline-size: 885px;
+}
+
+.car-container3 {
+    display: flex;
+    justify-content: center;
+    gap: 0.01cm;
+    padding: 20px;
+}
+
+.image-actu1,
+.image-actu2 {
+    inline-size: 100%;
+    block-size: auto;
+    max-block-size: 550px;
+    object-fit: cover;
+}
+
+p {
+    margin: 0 0 5px;
+    color: #444242;
+    max-inline-size: 100%;
+    text-align: justify;
+}
+
+
+.button-voiture3 {
+    inline-size: 225px;
+    block-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #064b96;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+    margin-block-start: 10px;
+    text-align: center;
+}
+
+
+.button-voiture3:hover {
+    background-color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .car-container3 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .car3 {
+        inline-size: 100%;
+        margin: 0 auto;
+    }
+
+    .image-actu,
+    .image-actu2 {
+        max-block-size: 200px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .button-voiture3 {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+}
